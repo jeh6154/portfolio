@@ -18,7 +18,7 @@ html {
 
 
 body {
-  background-image: url(../img/robo.jpg);
+  background-image: url(static/img/robo.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
