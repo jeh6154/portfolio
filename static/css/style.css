@@ -24,21 +24,6 @@ body {
   font:normal 75% Arial, Helvetica, sans-serif;
 }
 
-
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background: #18182b;        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.596);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid rgba(21, 9, 51, 0);  /* creates padding around scroll thumb */
-}
-
 canvas{
   display: block;
 }
@@ -104,7 +89,7 @@ nav{   /* itens do menu */
   padding: 15px;
   background-color: rgba(34, 34, 71, 0.5);
   backdrop-filter: saturate(180%) blur(15px);
-  width: 29%;
+  width: 72%;
   justify-content: center;
   border-radius: 20px;
   font: 400 1.2rem 'Inter', sans-serif;
@@ -112,10 +97,11 @@ nav{   /* itens do menu */
 
 ul{
   display: flex;
+  justify-content: center;
 }
 
 li{
-  list-style-type: none;
+  list-style-type: none; /* tira as bolinhas da frente dos itens do menu*/
   margin-left: 20px;
 }
 
