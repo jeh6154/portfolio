@@ -81,7 +81,7 @@ nav{   /* itens do menu */
   z-index: 1;
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 97vw;
   top: 20px;
 }
 
@@ -101,14 +101,23 @@ ul{
 }
 
 li{
+<<<<<<< HEAD
   list-style-type: none; /* tira as bolinhas da frente dos itens do menu*/
+=======
+>>>>>>> 277b286 (site finalizado)
   margin-left: 20px;
+}
+
+.classmenu{
+  list-style-type: none; /* tira as bolinhas da frente dos itens do menu*/
+  padding: 0;
 }
 
 li a{
   text-decoration: none;
   color: white;
   position: relative;
+
 }
 
 li a:hover{/* evento que ocorre ao passar o mouse em cima do menu */
